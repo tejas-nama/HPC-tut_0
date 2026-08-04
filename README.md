@@ -1,11 +1,4 @@
-# HPC-tut_0
-# ⚡ Performance Profiling and Optimization Lab
-
-![C](https://img.shields.io/badge/Language-C-blue.svg)
-![Compiler](https://img.shields.io/badge/Compiler-GCC-orange.svg)
-![OS](https://img.shields.io/badge/OS-Linux-yellow.svg)
-![Tools](https://img.shields.io/badge/Tools-GPROF%20%7C%20PERF-lightgrey.svg)
-
+# HPC Tutorial-0
 ## 📌 Project Overview
 This repository contains a performance engineering analysis of sorting algorithms applied to a simulated weather dataset of **18,250 daily temperature records** (approx. 50 years of data). 
 
@@ -16,10 +9,12 @@ The primary objective is to investigate application performance, identify bottle
 ## 🏗️ Repository Structure
 ```text
 Lab01/
-│── mysort.c          # Core application (Bubble Sort & Quick Sort)
-│── README.md         # Project documentation
-│── report.pdf        # Detailed analysis and answers to lab questions
-│── myreport.txt      # gprof output (Baseline -O0)
-│── report_O2.txt     # gprof output (Optimization -O2)
-│── report_O3.txt     # gprof output (Optimization -O3)
-└── screenshots/      # Terminal captures of time and perf executions
+│── mysort.c                  # Core application (Bubble Sort & Quick Sort)
+│── README.md                 # Project documentation
+│── performance analysis.png  # Overview of performance results
+│── myreport.txt              # gprof output (Baseline -O0)
+│── report_O2.txt             # gprof output (Optimization -O2)
+│── myreport_03               # gprof output (Optimization -O3)
+│── Compliation level-1.png   # Terminal capture for Baseline compilation
+│── Compliation level-2.png   # Terminal capture for Level 2 optimization
+└── Compliation level-3.png   # Terminal capture for Level 3 optimization
